@@ -101,3 +101,8 @@
 .error-message{
     color: #333;
 }
+
+.question-score{
+    display: flex;
+    justify-content: space-between;
+}

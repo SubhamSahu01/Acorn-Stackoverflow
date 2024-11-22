@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import moment from "moment";
 import axios from "axios";
 import "./MainContent.css";
 
@@ -72,6 +73,13 @@ function MainContent({ searchQuery }) {
                     {tag}
                   </span>
                 ))}
+              </div>
+              <div className="question-score">
+                <div className="question-tags">
+                  Votes: {question.score} | Answers: {question.answer_count} |
+                  Views: {question.view_count}
+                </div>
+                <div>Last activity: {moment.unix(question.creation_date).fromNow()}</div>
               </div>
             </div>
           ))}
