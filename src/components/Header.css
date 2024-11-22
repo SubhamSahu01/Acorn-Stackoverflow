@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.logo img{
+    width:40px;
+    height: 40px;
+}
+
+.overflow-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.search-bar {
+    flex: 1;
+    width: 500px;
+    margin: 0 1rem;
+    padding: 0.8rem 1rem;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    color:black;
+    outline: none;
+}
+
+.search-container img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 50px;
+}
+
+.search-bar:focus {
+    border: 1px solid #c4681b;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+.products-text {
+    color: rgb(72, 70, 70);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.user-icon:hover {
+    transform: scale(1.1);
+}

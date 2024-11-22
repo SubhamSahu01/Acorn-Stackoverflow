@@ -1,0 +1,47 @@
+.right-sidebar {
+    flex: 1;
+    padding: 1.5rem;
+    border-left: 1px solid #ddd;
+    height: 100%;
+  }
+  
+  
+  .right-section {
+    margin-bottom: 2rem;
+  }
+
+  .right-section img{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+  }
+  
+  .right-section h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .right-section p {
+    display: flex;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .right-section span{
+    font-weight: bolder;
+    margin-right: 7px;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    background-color: white;
+    color: rgb(60, 121, 218);
+    width: 100%;
+    border: 1px solid rgb(133, 127, 127);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
+  }
+  
