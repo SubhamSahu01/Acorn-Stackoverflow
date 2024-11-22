@@ -17,7 +17,7 @@ function Header({ onSearch }) {
       <div className="logo">
         <img src={logos} alt="" />
         <span className="logo-text">
-          stack<span className="overflow-text">overflow</span>
+          stack<span className="overflow-text">overflows</span>
         </span>
       </div>
       <div className="search-container">
